@@ -25,6 +25,10 @@ p{
  font-size: 20px;
         
 }
+ h1 {
+     font-size: 30px;
+ }
+ /* header styles */
 header{
     height: 592px;
     background-color: #fcc0cd;
@@ -49,9 +53,7 @@ header{
     text-align: center;
     margin: 0 auto;
 }
-.feature-content h1,.instagram-content h1,.coupon-content h1{
-    font-size: 30px;
-}
+
 .feature-images, .instagram-images{
     display: flex;
     width: 1100px;
@@ -131,4 +133,17 @@ input[type="email"]{
     margin-top: 10px;
     padding: 0 5px;
     
+}
+
+/* footer */
+footer{
+    background-color: rgb(19, 18, 18);
+    color: #fff;
+    padding: 50px;
+
+}
+.footer-content{
+    width:500px;
+    margin: 0 auto;
+    text-align: center;
 }
