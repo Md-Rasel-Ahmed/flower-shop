@@ -1,6 +1,10 @@
 *{
     margin: 0;
 }
+/* common styles */
+section{
+    padding:80px 0px;
+}
 /* shared styles */
 button{
     background-color: #e06681;
@@ -11,6 +15,11 @@ button{
     border-radius: 5px;
     cursor: pointer;
     margin-top: 10px;
+}
+p{
+  margin-top: 10px;
+ font-size: 20px;
+        
 }
 header{
     height: 592px;
@@ -28,12 +37,56 @@ header{
 .header-title>h1{
     font-size: 70px;
 }
-.header-title>p{
-    margin-top: 20px;
-    font-size: 20px;
-}
+
 
 /* feature section */
 .feature-content{
-    width: 594px;
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+.feature-content h1{
+    font-size: 30px;
+}
+.feature-images{
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+    gap: 15px;
+    margin-top: 30px;
+    
+}
+.feature-image-info{
+    display: flex;
+        width: 1100px;
+        margin: 0 auto;
+        justify-content: space-around;
+        
+}
+.feature-image-info p {
+   text-decoration: underline;
+}
+.feature-images img{
+    width: 75%;
+}
+.image-1{
+    background-color: #fcc0cd;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    padding: 20px;
+    text-align: center;
+}
+.image-2{
+    background-color: #6edef1;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    padding: 20px;
+    text-align: center;
+}
+.image-3{
+    background-color: #ddd;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    padding: 20px;
+    text-align: center;
 }
