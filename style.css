@@ -125,7 +125,7 @@ header{
     display: flex;
     gap: 10px;
 }
-input[type="email"]{
+.coupon-form input[type="email"]{
     width: 100%;
     height: 46px;
     border: none;
@@ -133,6 +133,24 @@ input[type="email"]{
     margin-top: 10px;
     padding: 0 5px;
     
+}
+/* Contact form */
+.contact{
+    width: 400px;
+    margin: 0 auto;
+}
+.contact input,textarea{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #ddd;
+    outline: none;
+    border-radius: 10px;
+}
+input[type="submit"] {
+    width: 400px;
 }
 
 /* footer */
@@ -147,3 +165,5 @@ footer{
     margin: 0 auto;
     text-align: center;
 }
+
+/*  */
